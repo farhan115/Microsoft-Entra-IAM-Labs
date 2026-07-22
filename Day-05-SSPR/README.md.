@@ -1,0 +1,72 @@
+# Day 05 – Microsoft Entra ID Self-Service Password Reset (SSPR)
+
+## Objective
+
+Configure Self-Service Password Reset (SSPR) in Microsoft Entra ID and understand the licensing requirements for advanced password reset features.
+
+---
+
+## Lab Environment
+
+- Microsoft Entra ID
+- Administrator Account
+- Test User
+- Microsoft Entra ID Free Tenant
+
+---
+
+## Tasks Performed
+
+- Navigated to Password Reset settings.
+- Enabled Self-Service Password Reset for all users.
+- Attempted to configure Authentication Methods.
+- Attempted to configure Registration settings.
+- Verified tenant licensing requirements.
+
+---
+
+## Lab Result
+
+The initial SSPR configuration was accessible. However, when accessing advanced Password Reset Authentication Methods, Microsoft Entra ID returned a licensing error.
+
+Error:
+
+> You need a Microsoft Entra ID Premium (P1/P2) license to use this feature.
+
+---
+
+## Technical Analysis
+
+This behavior is expected because the tenant is using Microsoft Entra ID Free.
+
+Advanced Self-Service Password Reset features require a Microsoft Entra ID Premium P1 or P2 license.
+
+This lab demonstrates the importance of verifying licensing requirements before deploying identity management features in production environments.
+
+---
+
+## Skills Learned
+
+- Self-Service Password Reset (SSPR)
+- Microsoft Entra Licensing
+- Identity Administration
+- Troubleshooting Access Errors
+- Understanding Premium Feature Requirements
+
+---
+
+## Screenshots
+
+### SSPR Properties
+
+(Add your first screenshot here)
+
+### Licensing Error
+
+(Add the screenshot showing "You need a Microsoft Entra ID Premium license to use this feature.")
+
+---
+
+## Conclusion
+
+Although the advanced configuration could not be completed due to licensing restrictions, this lab provided practical experience with SSPR configuration and highlighted how Microsoft Entra licensing affects available identity management features.
