@@ -1,0 +1,1 @@
+Configured 1 report-only Microsoft Entra Conditional Access policy requiring phishing-resistant MFA for a pilot security group; validated 2 user scenarios using What If, confirming correct policy targeting for pilot and non-pilot users.
