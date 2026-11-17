@@ -1,0 +1,1 @@
+Hands-on Microsoft Entra ID lab covering group-scoped FIDO2 passkey policies, Google Password Manager registration, authentication verification through sign-in logs, troubleshooting, and interview Q&A.
