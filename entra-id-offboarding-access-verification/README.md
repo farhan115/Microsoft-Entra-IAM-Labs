@@ -1,0 +1,1 @@
+Microsoft Entra ID offboarding lab that verified a disabled test account’s fresh My Apps sign-in was blocked and its security group membership dropped from 1 to 0. The report includes an audit timeline, troubleshooting Q&A, and a resume bullet.
