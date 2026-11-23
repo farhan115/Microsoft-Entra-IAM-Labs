@@ -1,0 +1,1 @@
+Reset the password for a cloud-only test account in Microsoft Entra ID and correlated 3 audit and sign-in records to verify the administrator action, password acceptance, and successful My Profile access.
