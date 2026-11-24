@@ -1,0 +1,1 @@
+- Configured SAML 2.0 SSO for a Microsoft Entra enterprise application, set up NameID mapping and signing-certificate trust, diagnosed an invalid-credentials error (50126), and verified 2 successful interactive sign-ins in Entra logs.
